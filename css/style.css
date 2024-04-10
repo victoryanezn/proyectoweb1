@@ -1,0 +1,598 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    perspective: 1000px;
+}
+.navbar-brand{
+    padding: 1rem;
+    margin: 1rem;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-brand:hover {
+    
+    background: linear-gradient(90deg, rgb(88, 74, 241) 0%, rgba(76,225,255,1) 100%);
+    border-radius: 8px;
+    color:white;
+
+}
+
+
+
+
+/* navbar flex */
+
+
+
+
+
+.log-reg{
+    
+
+
+    border-color: #794b4b;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5rem;
+    position: absolute;
+    right: 1rem;
+
+
+}
+.log-reg a{
+    
+    padding: 0.5rem;
+    color: #2613f9fd;
+    text-decoration: none;
+}
+
+.log-reg a:hover{
+    color:rgb(56, 65, 65);
+
+}
+.caja-reg {
+    font-family: 'Poppins', sans-serif;
+    background: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+    color: #333;
+}
+
+.container {
+  width: 30rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+
+}
+
+
+
+#register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#register-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+#register-form input {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+
+#register-form input:focus {
+    background-color: #e0e0e0;
+    outline: none;
+}
+
+#register-form button {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(13, 114, 147);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#register-form button:hover {
+    background-color: #0d3e83;
+}
+
+
+.container p {
+    text-align: center;
+}
+
+s
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#login-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+#login-form input {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+
+#login-form input:focus {
+    background-color: #e0e0e0;
+    outline: none;
+}
+
+#login-form button {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(13, 114, 147);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#login-form button:hover {
+    background-color: #0d3e83;
+}
+
+
+
+
+
+
+/* --------------- */
+
+
+
+
+.header {
+    background-color: rgb(0, 174, 255);
+    display: flex;
+    justify-content: space-around;
+}
+
+.navegacion {
+    float: right;
+}
+
+
+.lateral_1 img,
+.lateral_2 img {
+  margin: auto;
+  max-width: 100%; /* Imágenes responsivas */
+  height: 15rem; /* Mantener la proporción original */
+  display: flex;
+  justify-content: center;
+}
+.lateral_1 {
+    text-align: left;
+
+    background: linear-gradient(to right, #b7e4ff, #3366ff);
+    padding: 1rem;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 1 2rem 4rem rgba(0, 0, 0, 0.1);
+    margin: 2rem;
+    
+}
+
+.lateral_2{
+    width: 50%;
+    background: linear-gradient(to right, #3366ff, #051444);
+    padding: 1rem;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 2rem;
+
+  
+}
+
+.contenedor-inferior {
+    display: flex;
+}
+
+
+
+@media screen and (max-width:720px) {
+    .header {
+        flex-direction: column;
+    }
+    .footer {
+        display: none;
+    }
+}
+
+.boton {
+    background-color: #4caf50; /* Verde */
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5rem;
+}
+.boton:hover {
+    color: rgb(50, 45, 45);
+    border-radius: 5rem;
+    background-color: rgb(72, 235, 112);
+    border-color: white;
+}
+
+.form-control{
+    margin: 1rem;
+}
+
+.col-md-6{
+    
+    font-size: small;
+
+}
+
+
+.bannerconsola{
+
+    display: flex;
+    justify-content: center ;
+
+    width: auto;
+    height: auto;
+    margin: 15px;
+    padding: 15px;
+    
+}
+.bannerconsola img{
+    box-shadow: 2px 15px 10px #308af160;
+
+}
+.producto0{ 
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+}
+
+.producto1{
+    grid-column: 1 ;
+    grid-row: 1;
+    border: 1px solid rgb(204, 202, 202);
+    padding: 0,5rem;
+    margin: 20px ;
+    text-align: center;
+    max-width: 300px;
+    min-width: 256PX;
+    box-shadow: 0px 10px 15px #22212160 ;
+}
+
+.producto1 img{
+    width: auto;
+    height: 10rem;
+    margin: 0;
+    justify-content: center;
+}
+
+.producto1 h3{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.producto1 p{
+    margin-bottom: 20px;
+}
+.producto1 .precio{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.bannerconsola {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    padding: 10px; /* Agrega relleno para separar el banner de las cajas */
+}
+
+.bannerconsola img {
+    max-width: 100%; /* La imagen no excederá el ancho del contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción de aspecto */
+    box-shadow: 2px 15px 10px #308af160; /* Sombra como se indica en tu código original */
+}
+
+.producto0 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center; /* Ajusta esto según tu preferencia */
+    align-items: stretch; /* Ajusta esto según tu preferencia */
+}
+
+.producto0 > * {
+    flex: 1 1 calc(20% - 10px); /* Calcula el ancho deseado con el espacio entre los elementos */
+    margin-bottom: 10px; /* Agrega margen inferior entre los elementos */
+    /* También puedes ajustar otros estilos según tus necesidades */
+}
+
+
+.producto1 button{
+    background-color: #333;
+    color: #fff;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.producto1 button:hover{
+    background-color: #0dc732;
+
+}
+
+
+.producto2{
+    
+    grid-column: 2 / 2;
+    grid-row: 1 ;
+    border: 1px solid rgb(204, 202, 202);
+    padding: 0,5rem;
+    margin: 20px ;
+    text-align: center;
+    max-width: 300px;
+    min-width: 256PX;
+    box-shadow: 0px 10px 15px #22212160 ;
+}
+
+
+
+.producto2 img{
+    width: auto;
+    height: 10rem;
+    margin: 0;
+    justify-content: center;
+}
+
+.producto2 h3{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.producto2 p{
+    margin-bottom: 20px;
+}
+.producto2 .precio{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.producto2 button{
+    background-color: #333;
+    color: #fff;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.producto2 button:hover{
+    background-color: #0dc732;
+
+}
+
+
+
+
+/* aaaaaaaaaa */
+
+
+.producto3{
+    
+    grid-column: 3 / 3;
+    grid-row: 1 ;
+    border: 1px solid rgb(204, 202, 202);
+    padding: 0,5rem;
+    margin: 20px ;
+    text-align: center;
+    max-width: 300px;
+    min-width: 256PX;
+    box-shadow: 0px 10px 15px #22212160 ;
+}
+
+
+
+.producto3 img{
+    width: auto;
+    height: 10rem;
+    margin: 0;
+    justify-content: center;
+}
+
+.producto3 h3{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.producto3 p{
+    margin-bottom: 20px;
+}
+.producto3 .precio{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.producto3 button{
+    background-color: #333;
+    color: #fff;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.producto3 button:hover{
+    background-color: #0dc732;
+
+}
+/* aaaaaaaa */
+.producto4{
+    
+    grid-column: 4 / 4;
+    grid-row: 1 ;
+    border: 1px solid rgb(204, 202, 202);
+    padding: 0,5rem;
+    margin: 20px ;
+    text-align: center;
+    max-width: 300px;
+    min-width: 256PX;
+    box-shadow: 0px 10px 15px #22212160 ;
+}
+
+
+
+.producto4 img{
+    width: auto;
+    height: 10rem;
+    margin: 0;
+    justify-content: center;
+}
+
+.producto4 h3{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.producto4 p{
+    margin-bottom: 20px;
+}
+.producto4 .precio{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.producto4 button{
+    background-color: #333;
+    color: #fff;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.producto4 button:hover{
+    background-color: #0dc732;
+
+}
+
+
+.contenedor2{
+    border: 1px solid rgb(204, 202, 202);
+    display: flex;
+    justify-content: center;
+
+    max-width: auto;
+    min-width: 800PX;
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px #0000006c ;
+    background:linear-gradient(to right, #747474, #f4f4f4);;
+
+    
+}
+
+.tituloproducto {
+    display: flex;
+    justify-content: center;
+    margin: 40px
+
+}
+
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    margin: 40px
+}
+
+
+.descriptionproducto button{
+    
+    background-color: #2e3133;
+    color: #fff;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+
+    
+}
+.descriptionproducto button:hover{
+    
+    background-color: #747474;
+
+}
+
+
+
+.descriptionproducto,.imgproducto{
+    margin: 20px;
+    padding: 5px;
+}
+
+.imgproducto{
+    display: block;
+
+}
+
+
+
+
+#videoyt {
+    text-align: center; 
+    margin: 20px 20px 20px;
+    
+}
+
+#videoyt iframe {
+    display: inline-block; 
+    box-shadow:0px 10px 15px #0000006c;
+}
