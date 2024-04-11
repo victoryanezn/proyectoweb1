@@ -2,4 +2,3 @@ document.getElementById('register-form').addEventListener('submit', function(eve
   event.preventDefault();
   alert('Gracias por registrarte, ahora ya formas parte de webplay');
 });
-

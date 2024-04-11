@@ -21,7 +21,6 @@
 
 
 
-/* navbar flex */
 
 
 
@@ -532,8 +531,8 @@ s
     min-width: 800PX;
     margin: 40px;
     border-radius: 10px;
-    box-shadow: 0px 10px 15px #0000006c ;
-    background:linear-gradient(to right, #747474, #f4f4f4);;
+    box-shadow: 0px 10px 15px #0044fe6c ;
+    background:linear-gradient(to right, #4788f0, #25f0f7);;
 
     
 }
@@ -562,6 +561,7 @@ s
     border-radius: 5px;
     cursor: pointer;
     margin-bottom: 15px;
+    justify-content: flex-end;
 
     
 }
@@ -583,7 +583,14 @@ s
 
 }
 
+.descriptionproducto h5{
 
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    
+
+}
 
 
 #videoyt {
