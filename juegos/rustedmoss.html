@@ -8,34 +8,38 @@
     <link rel="stylesheet" href="../css/style.css">
     <script src="https://kit.fontawesome.com/40f2d4fd97.js" crossorigin="anonymous"></script>
 
-    <title>Nintendo Switch OLED</title>
+    <title>Rusted Moss - Nintendo switch</title>
 </head>
 <body>
 
     <!-- NAV -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div>
             <a href="../index.html"><img src="../img/logo_weplay_2.webp" alt="Logo Weplay"></a>
         </div>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Busca un producto" aria-label="Search">
-            <button  class="boton"
-            class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-        </form>
-
-
-        <a class="navbar-brand" class="link" href="../Paginas/Tecnologia.html">TECNOLOGIA</a>
-        <a class="navbar-brand" class="link" href="../Paginas/juegos.html">JUEGOS</a>
-
-        
-        <div class="log-reg">
-            <a href="../Paginas/registro.html">Registrate</a>
-            <a href="../Paginas/login.html">Mi cuenta</a>
-
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent2">
+    
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Busca un producto" aria-label="Search">
+                <button class="boton btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+    
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="navbar-brand link" href="../Paginas/Tecnologia.html">TECNOLOGIA</a></li>
+                <li class="nav-item"><a class="navbar-brand link" href="../Paginas/juegos.html">JUEGOS</a></li>
+            </ul>
+    
+            <div class="log-reg ">
+                <a href="../Paginas/registro.html">Registrate</a>
+                <a href="../Paginas/login.html">Mi cuenta</a>
+            </div>
         </div>
     </nav>
-
+    
 
 
 
@@ -46,7 +50,7 @@
 
 
     <!-- Titulo -->
-    <h2 class="tituloproducto">Nintendo Switch OLED</h2>
+    <h2 class="tituloproducto">Rusted Moss - Nintendo switch</h2>
 
     <!-- Imagen del producto -->
 
@@ -55,45 +59,33 @@
 
             <div class="">
                 <div class="imgproducto">
-                    <img src="../img/switch.png" class="imgproducto" alt="Imagen del producto" width="355px">
+                    <img src="../img/RustedMoss.webp" class="imgproducto" alt="Imagen del producto" width="355px">
                 </div>
             </div>
             <div>
                 <div class="descriptionproducto">
-                    <h5>Características</h5>
-                    <p><b>Modelo base: </b>Nintendo Switch OLED Mario Red Edition
+                    <h5>Rusted Moss</h5>
+                    <p>
+                        <b>DESCRIPCIÓN: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eos laboriosam consequuntur expedita dolores neque tempore harum? Illo hic ullam quam inventore voluptates est dolore, laborum magnam esse quidem exercitationem?
+
                         <br>
-                        <b>Capacidad: </b>64 GB
+                        <b>Tipo de producto:</b> Consolas > Nintendo > Juegos
                         <br>
-                        <b>Formato: </b>Híbrida (Portátil y Sobremesa)
+                        <b>Vendedor:</b> Nintendo
                         <br>
-                        <b>Controles incluidos: </b> 1
-                        <br>
-                        <b>Bundle: </b>No posee
-                        <br>
-                        <b>Puertos:</b>
-                        <ul>
-                            <li>3.5 mm.</li>
-                            <li>Lector tarjetas microSD</li>
-                            <li>HDMI out</li>
-                            <li>USB 3.0</li>
-                            <li>USB 3.1 Type-C</li>
-                            
-                        </ul>
+                        <b>Precio: $49.990</b>
                         
-                        <b>Compatibilidad con juegos:</b>
-                        <ul>
-                            <li>Nintendo Switch</li>
-                        </ul>
                         <br>
                     </p>
     
                     
                     
                     <div>
-                        <button type="button">Comprar Ahora</button>
+                        <button onclick="toggleContent()" type="button" >Comprar Ahora</button>
+                        
                         <button type="button">Agregar al Carrito</button>
                     </div>
+                    <p id="content" style="display: none;">No hay stock, lo siento.</p>
                 </div>
             </div>
 
@@ -106,10 +98,8 @@
 
 
 
-
-
     <div id="videoyt">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ncmu8qIP_A0?si=T8pdtoUtdscCJjHl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/cmi74JPQTo8?si=FY6dJy673or6-Ig3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 
 
@@ -172,6 +162,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="../js/script.js"></script>
+    <script src="../js/scriptnostok.js"></script>
 </body>
 </html>

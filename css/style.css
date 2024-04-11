@@ -551,8 +551,14 @@ s
     margin: 40px
 }
 
-
+.descriptionproducto{
+    max-width: 300px;
+    min-width: none;
+    
+}
 .descriptionproducto button{
+
+    
     
     background-color: #2e3133;
     color: #fff;
@@ -603,3 +609,9 @@ s
     display: inline-block; 
     box-shadow:0px 10px 15px #0000006c;
 }
+
+.colapsonav {
+    display: flex;
+    flex-direction: column; /* Organiza las cajas en una columna */
+    align-items: flex-start; /* Alinea las cajas al inicio del contenedor */
+  }
